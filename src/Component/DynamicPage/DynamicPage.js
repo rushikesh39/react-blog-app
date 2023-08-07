@@ -6,6 +6,8 @@ import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 import { useLocation } from "react-router-dom";
 import store from "../../Store/StoreCompo";
 import RandomComponent from "./RandomComponent";
+import share from "./share.svg";
+import clap from "./rythm.svg";
 
 function DynamicPage() {
   const location = useLocation();
@@ -21,11 +23,22 @@ function DynamicPage() {
   const categaryData = data.StoreData.filter((item) => item.for === categary);
   console.log(categaryData);
   return (
-    <div>
+    <div className="dynamic">
       <Header />
+      <div className="icon">
+          <div className="icon-item">
+            <img src={clap} alt="img not found" />
+           <p> 9.4m</p>
+          </div>
+          <div className="icon-item">
+            <img src={share} alt="img not found" />
+            <p>share this artical</p>
+          </div>
+        </div>
       {/* <Nav/> */}
       <div className="dynamic-nav"></div>
       <div className="sub-container">
+        
         <h1>5 Ways to animate a React app.</h1>
         <div className="info">
           <div className="person">
@@ -81,9 +94,27 @@ function DynamicPage() {
           <button>React</button>
           <button>javaScrip</button>
           <button>Animation</button>
+
+        </div>
+        <div>
+        <div className="icon-item">
+            <img src={clap} alt="img not found" />
+           <p> 9.4m clap</p>
+          </div>
+          <hr/>
+          <div className="person">
+        <img src={person} alt="img not found" className="person-img" />
+        <div>
+          <p>Written by</p>
+          <p>Rushi Thange</p>
+          <p>Aug 10. 4min read</p>
+        </div>
+       
+      </div>
+      <hr/>
         </div>
       </div>
-     <p className="dynamic-discription"> More from siren</p>
+      <p className="dynamic-discription"> More from siren</p>
       <hr />
       <div className="random-card">
         <RandomComponent data={categaryData} />

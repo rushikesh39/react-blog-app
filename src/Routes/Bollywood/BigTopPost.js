@@ -8,8 +8,7 @@ function BigTopPost() {
     const TopPost = data.StoreData.filter(
         (item) => item.subtype === "bollywood-top-post"
       );
-      // const TopPostImg=TopPost.map((item, index)=>item.img)
-      // const id=TopPost.map((item ,index)=>item.id)
+      
   return (
     <div className="big-top-post">
      {

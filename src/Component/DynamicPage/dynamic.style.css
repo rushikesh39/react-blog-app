@@ -30,6 +30,7 @@
     /* border: 2px solid gray; */
     margin: auto;
     margin-bottom: 40px;
+    position: relative;
     /* display: flex;
     flex-wrap: wrap; */
     /* justify-content:space-around; */
@@ -112,6 +113,24 @@
     line-height: 40px;
     text-align: justify;
   }
+  .dyanmic{
+    position: relative;
+  }
+  .icon{
+    position: relative;
+    width: 200px;
+    left:0 ;
+    top:500px
+
+  }
+  .icon-item{
+    display: flex;
+    margin: 5px;
+  }
+  .icon-item p{
+    margin-left: 15px;
+    font-size: medium;
+  }
   @media (max-width:1224px) {
     .random-card{
       width: 100%;
@@ -129,6 +148,9 @@
   @media (max-width:800px) {
     .App{
       /* font-size:medium; */
+    }
+    .icon{
+      display: none;
     }
     .random-component{
       width: 45%;
