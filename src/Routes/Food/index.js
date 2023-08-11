@@ -3,6 +3,7 @@ import FoodItem from './FoodItem';
 import TopPost from './TopPost';
 import Header from "../../Component/Header";
 import BigTopPost from './BigTopPost';
+import Add from '../../Advertisement/Add';
 
 function Food() {
   return (
@@ -24,7 +25,7 @@ function Food() {
             <TopPost />
           </div>
           <div className="Advertistement">
-            <h3>Advertistement</h3>
+            <Add/>
           </div>
         </div>
       </div>

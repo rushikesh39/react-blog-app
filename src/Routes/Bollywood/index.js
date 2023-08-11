@@ -5,6 +5,7 @@ import "./bollywood.style.css";
 import React from "react";
 import Header from "../../Component/Header";
 import BigTopPost from "./BigTopPost";
+import Add from "../../Advertisement/Add";
 
 const Bollywood = () => {
   return (
@@ -28,7 +29,7 @@ const Bollywood = () => {
             <TopPost />
           </div>
           <div className="Advertistement">
-            <h3>Advertistement</h3>
+            <Add/>
           </div>
         </div>
       </div>

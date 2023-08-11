@@ -9,6 +9,7 @@ import TopPost from "./TopPost";
 import Header from "../../Component/Header";
 import BigTopPost from "./BigTopPost";
 import { Link } from "react-router-dom";
+import Add from "../../Advertisement/Add";
 
 const Home = () => {
   const data = useContext(store);
@@ -45,7 +46,7 @@ const Home = () => {
         </div>
         <div className="side-item">
           <div className="Advertistement">
-            <h2>Advertistement</h2>
+           <Add/>
           </div>
           <div className="top-post">
             <h2>Top Post</h2>

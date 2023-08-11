@@ -3,6 +3,7 @@ import TopPost from './TopPost';
 import Techno from './Techno';
 import Header from "../../Component/Header";
 import BigTopPost from './BigTopPost';
+import Add from '../../Advertisement/Add';
 
 function Techology() {
   return (
@@ -26,7 +27,7 @@ function Techology() {
             <TopPost />
           </div>
           <div className="Advertistement">
-            <h3>Advertistement</h3>
+           <Add/>
           </div>
         </div>
       </div>

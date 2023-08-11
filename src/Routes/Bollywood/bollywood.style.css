@@ -73,6 +73,10 @@
 .Advertistement{
     height: 600px;
 }
+.Advertistement img{
+    width: 100%;
+    height: 100%;
+}
 @media (max-width:850px) {
     .bollywooditem1{
         width: 60%;
