@@ -396,9 +396,9 @@
         justify-content: center;
     }
 
-    .article-item-short{
-        height: 160px;
-    }
+    /* .article-item-short{
+        height: 160px; 
+    } */
     .Vline{
         display: none;
     }

@@ -116,7 +116,7 @@
   .dyanmic{
     position: relative;
   }
-  .icon{
+  .icon1{
     position: relative;
     width: 200px;
     left:0 ;
@@ -149,7 +149,7 @@
     .App{
       /* font-size:medium; */
     }
-    .icon{
+    .icon1{
       display: none;
     }
     .random-component{

@@ -25,7 +25,7 @@ function DynamicPage() {
   return (
     <div className="dynamic">
       <Header />
-      <div className="icon">
+      <div className="icon1">
           <div className="icon-item">
             <img src={clap} alt="img not found" />
            <p> 9.4m</p>
